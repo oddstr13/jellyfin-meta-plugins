@@ -81,9 +81,7 @@ for directory in os.listdir("."):
     if git_version is None:
         print(f"ERROR: No git tag locally {directory} ({name})")
     elif git_version > manifest_version:
-        print(
-            f"ERROR: Git tag has higher version than build.yaml {directory} ({name})."
-        )
+        print(f"ERROR: Git tag has higher version than build.yaml {directory} ({name}).")
 
     _repo_plugin = list(filter(lambda obj: obj.get("name") == name, published))
 
