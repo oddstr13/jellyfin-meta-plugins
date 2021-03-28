@@ -90,13 +90,18 @@ if failed:
 commit_message = ["Updated plugin submodules"]
 
 if added:
-    commit_message.append('Added:')
+    commit_message.append('')
+    commit_message.append('Added')
+    commit_message.append('-----')
+    commit_message.append('')
     for plugin in added:
         commit_message.append("- {}".format(plugin))
-    commit_message.append('')
 
 if removed:
-    commit_message.append('Removed:')
+    commit_message.append('')
+    commit_message.append('Removed')
+    commit_message.append('-------')
+    commit_message.append('')
     for plugin in removed:
         commit_message.append("- {}".format(plugin))
 
