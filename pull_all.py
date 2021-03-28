@@ -21,7 +21,7 @@ added = []
 def update(_name, url=None):
     if not os.path.exists(_name):
         print("Adding {} @ {}".format(_name, url))
-        subprocess.run(['git', 'submodule', 'add', '-b', 'master', url, _name], check=True)
+        subprocess.run(['git', 'submodule', 'add', '--force', '-b', 'master', url, _name], check=True)
         added.append(_name)
     subprocess.run(['git', 'submodule', 'update', '--init', '--remote', '--checkout', '--force', _name], check=True)
 
@@ -100,4 +100,4 @@ if removed:
     for plugin in removed:
         commit_message.append("- {}".format(plugin))
 
-subprocess.run(["git", 'commit', '-m', commit_message])
+subprocess.run(["git", 'commit', '-m', '\n'.join(commit_message)])
