@@ -1,66 +1,88 @@
 [submodule "jellyfin-plugin-template"]
 	path = jellyfin-plugin-template
 	url = https://github.com/jellyfin/jellyfin-plugin-template
+	branch = master
 [submodule "jellyfin-plugin-anime"]
 	path = jellyfin-plugin-anime
 	url = https://github.com/jellyfin/jellyfin-plugin-anime
+	branch = master
 [submodule "jellyfin-plugin-autoorganize"]
 	path = jellyfin-plugin-autoorganize
 	url = https://github.com/jellyfin/jellyfin-plugin-autoorganize
+	branch = master
 [submodule "jellyfin-plugin-trakt"]
 	path = jellyfin-plugin-trakt
 	url = https://github.com/jellyfin/jellyfin-plugin-trakt
+	branch = master
 [submodule "jellyfin-plugin-ldapauth"]
 	path = jellyfin-plugin-ldapauth
 	url = https://github.com/jellyfin/jellyfin-plugin-ldapauth
+	branch = master
 [submodule "jellyfin-plugin-iptv"]
 	path = jellyfin-plugin-iptv
 	url = https://github.com/jellyfin/jellyfin-plugin-iptv
+	branch = master
 [submodule "jellyfin-plugin-reports"]
 	path = jellyfin-plugin-reports
 	url = https://github.com/jellyfin/jellyfin-plugin-reports
+	branch = master
 [submodule "jellyfin-plugin-bookshelf"]
 	path = jellyfin-plugin-bookshelf
 	url = https://github.com/jellyfin/jellyfin-plugin-bookshelf
+	branch = master
 [submodule "jellyfin-plugin-opensubtitles"]
 	path = jellyfin-plugin-opensubtitles
 	url = https://github.com/jellyfin/jellyfin-plugin-opensubtitles
+	branch = master
 [submodule "jellyfin-plugin-tvheadend"]
 	path = jellyfin-plugin-tvheadend
 	url = https://github.com/jellyfin/jellyfin-plugin-tvheadend
+	branch = master
 [submodule "jellyfin-plugin-playbackreporting"]
 	path = jellyfin-plugin-playbackreporting
 	url = https://github.com/jellyfin/jellyfin-plugin-playbackreporting
+	branch = master
 [submodule "jellyfin-plugin-tmdbboxsets"]
 	path = jellyfin-plugin-tmdbboxsets
 	url = https://github.com/jellyfin/jellyfin-plugin-tmdbboxsets
+	branch = master
 [submodule "jellyfin-plugin-pushbullet"]
 	path = jellyfin-plugin-pushbullet
 	url = https://github.com/jellyfin/jellyfin-plugin-pushbullet
+	branch = master
 [submodule "jellyfin-plugin-gotify"]
 	path = jellyfin-plugin-gotify
 	url = https://github.com/jellyfin/jellyfin-plugin-gotify
+	branch = master
 [submodule "jellyfin-plugin-emailnotifications"]
 	path = jellyfin-plugin-emailnotifications
 	url = https://github.com/jellyfin/jellyfin-plugin-emailnotifications
+	branch = master
 [submodule "jellyfin-plugin-slack"]
 	path = jellyfin-plugin-slack
 	url = https://github.com/jellyfin/jellyfin-plugin-slack
+	branch = master
 [submodule "jellyfin-plugin-fanart"]
 	path = jellyfin-plugin-fanart
 	url = https://github.com/jellyfin/jellyfin-plugin-fanart
+	branch = master
 [submodule "jellyfin-plugin-nextpvr"]
 	path = jellyfin-plugin-nextpvr
 	url = https://github.com/jellyfin/jellyfin-plugin-nextpvr
+	branch = master
 [submodule "jellyfin-plugin-pushover"]
 	path = jellyfin-plugin-pushover
 	url = https://github.com/jellyfin/jellyfin-plugin-pushover
+	branch = master
 [submodule "jellyfin-plugin-kodisyncqueue"]
 	path = jellyfin-plugin-kodisyncqueue
 	url = https://github.com/jellyfin/jellyfin-plugin-kodisyncqueue
+	branch = master
 [submodule "jellyfin-plugin-serverwmc"]
 	path = jellyfin-plugin-serverwmc
 	url = https://github.com/jellyfin/jellyfin-plugin-serverwmc
+	branch = master
 [submodule "jellyfin-plugin-isomounter"]
 	path = jellyfin-plugin-isomounter
 	url = https://github.com/jellyfin/jellyfin-plugin-isomounter
+	branch = master
